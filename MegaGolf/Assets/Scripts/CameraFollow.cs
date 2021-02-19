@@ -13,7 +13,7 @@ public class CameraFollow : MonoBehaviour
         transform.position = desPos;
 
         transform.LookAt(Target);
-
+        
         if (Input.GetKey("left"))
         {
             Offset.x ++;
@@ -31,5 +31,6 @@ public class CameraFollow : MonoBehaviour
         {
             Offset.x = -35;
         }
+        
     }
 }

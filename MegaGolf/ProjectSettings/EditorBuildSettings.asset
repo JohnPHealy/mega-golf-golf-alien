@@ -12,6 +12,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Level1.unity
     guid: 54fab7d0fa5c7e348aaa7b615b7da892
   - enabled: 1
+    path: Assets/Scenes/island_sibz.unity
+    guid: 0222785cf1ffffc4c8ab09ea11321e5e
+  - enabled: 1
+    path: Assets/Scenes/rock_sibz.unity
+    guid: 9d1537f40be3b764d9acd0b175d20a36
+  - enabled: 1
     path: Assets/Scenes/Lava_Zoheb.unity
     guid: 0d344459bf27b304f81e3672f49a48c3
   - enabled: 1
