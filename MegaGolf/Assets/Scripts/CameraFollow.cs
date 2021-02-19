@@ -16,9 +16,18 @@ public class CameraFollow : MonoBehaviour
 
         if (Input.GetKey("left"))
         {
-            Offset.x = 35;
+            Offset.x ++;
         }
         if (Input.GetKey("right"))
+        {
+            Offset.x --;
+        }
+        
+        if (Offset.x > 35)
+        {
+            Offset.x = 35;
+        }
+        if (Offset.x < -35)
         {
             Offset.x = -35;
         }
